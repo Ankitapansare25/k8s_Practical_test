@@ -181,7 +181,7 @@ Perform the following steps:
 1.Create a Deployment that runs the application with at least 2 pods.
 ## Application Output Screenshot
 
-![Browser Output](Screenshort/cmd.png)
+![Browser Output](Screenshot/cmd.png)
 
 
 2.Ensure all pods are created successfully and are in Running state.
