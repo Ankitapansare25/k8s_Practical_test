@@ -103,10 +103,10 @@ Perform the following steps:
 nano deploy.yml
 kb apply -f deploy.yml
 
-
+```
 ![Browser Output](Screenshot/cmd.png)
 
-```
+
 
 2.Ensure all pods are created successfully and are in Running state.
 
