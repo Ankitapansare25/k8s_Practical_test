@@ -1,4 +1,4 @@
-# k8s_Practical_test
+ # k8s_Practical_test
 
 ### K8S MCQ 
 
@@ -179,14 +179,35 @@ You are given an application image that runs a web server.
 Perform the following steps:
 
 1.Create a Deployment that runs the application with at least 2 pods.
-## Application Output Screenshot
+
+```bash
+nano deploy.yml
+kb apply -f deploy.yml
+
 
 ![Browser Output](Screenshot/cmd.png)
 
-
 2.Ensure all pods are created successfully and are in Running state.
+
+```bash
+kb get pod
+
 3.Create a NodePort Service to expose the application.
+```bash
+nano service.yml
+kb apply -f service.yml
+
 4.Access the application from a browser using:
      http://<NodeIP>:<NodePort>
+
+```bash
+http://35.154.120.179:30007/
+
 5.Verify that the application output is visible in the browser.
-6.Take a screenshot of the browser output.
+
+## Output Screenshot
+
+![Browser Output](Screenshot/output.png)
+
+
+ 
